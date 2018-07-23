@@ -1,12 +1,11 @@
 
-
 .marketing,
 .search-page,
 .travel-app,
 .map,
 .photo-gallery,
 .calculator {
-  width: 500px;
+  width: 100%;
 }
 
 
@@ -18,7 +17,7 @@ body {
 .main-header {
   background: #f8f8f8;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .main-nav li {
@@ -52,9 +51,6 @@ a:visited {
   padding-left: 20px;
 }
 
-.portfolio {
-  text-transform: uppercase;
-}
 
 .contact {
   text-transform: uppercase;
@@ -68,6 +64,10 @@ a:visited {
 
 .footer-text {
   padding-left: 20px;
+}
+
+#contact {
+  clear: both;
 }
 
 
@@ -85,8 +85,8 @@ a:visited {
   .headline {
 		float: left;
 		text-align: justify;
-		padding-right: 1em;
-		padding-left: 3em;
+		padding-right: 20px;
+		padding-left: 20px;
 		width: 50%;
 	}
 
