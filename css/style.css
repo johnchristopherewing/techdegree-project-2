@@ -129,9 +129,24 @@ a:visited {
 
 	.contact {
 		width: 90%;
-}
+  }
 
 	.col {
 		width: 33%;
 	}
+
+  .main-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+  }
+
+  .main-header {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+
 }
