@@ -74,6 +74,10 @@ a:visited {
   padding: 20px;
 }
 
+.footer-nav {
+  display: none;
+}
+
 
 /* --- Media Queries --- */
 
@@ -130,14 +134,4 @@ a:visited {
 	.col {
 		width: 33%;
 	}
-}
-
-.backtotop {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .footer-nav {
-    display: none;
-  }
 }
