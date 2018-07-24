@@ -70,6 +70,9 @@ a:visited {
   clear: both;
 }
 
+.footer-nav a {
+  padding: 20px;
+}
 
 
 /* --- Media Queries --- */
@@ -100,9 +103,16 @@ a:visited {
 		width: 50%;
   }
 
-	.totop {
+	.backtotop {
 		display: none;
 	}
+
+  .footer-nav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 
 }
 
@@ -120,4 +130,14 @@ a:visited {
 	.col {
 		width: 33%;
 	}
+}
+
+.backtotop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .footer-nav {
+    display: none;
+  }
 }
